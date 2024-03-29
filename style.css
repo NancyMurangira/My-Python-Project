@@ -3,3 +3,9 @@
     max-width: 600px;
     margin: 0 auto;
   }
+  body{
+    background-image: url("backgroundpicture.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
