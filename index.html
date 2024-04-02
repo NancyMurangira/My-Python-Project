@@ -16,10 +16,11 @@
   <button> Start </button>
 </div>
 
-<script> function start() {
-   var userName = document.getElementById("userName").value;
-    if (userName.trim() === "") { 
-      alert("Please enter your name.");
+<script> 
+function start() {
+   var userName = document.getElementById("userName");
+    if (userName.trim() == "") { 
+      alert("Please enter your name:");
        return; 
       } 
        alert("Hello, " + userName + "! Welcome to the Book Recommendation System."); 
